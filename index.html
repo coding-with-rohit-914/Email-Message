@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Email-Massage-System</title>
+</head>
+<body>
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>• Contact Us •</span></h2>
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="216a235b-4c28-4d16-8bb0-ba5146365960">
+            <div class="input-box">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="Mobile" placeholder="Mobile Number" required>
+                <input type="text" name="Subject" placeholder="Email Subject" required>
+            </div>
+            <textarea name="Feedback" rows="3" placeholder="Give Your Feedback & Message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+</body>
+</html>
